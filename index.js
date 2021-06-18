@@ -1,9 +1,11 @@
 function odd_even () {
-    let a;
-    a = Number(document.getElementById("Input_num").value);
-    if (a % 2 == 0) {
-        document.write("Even Number");
+    let num;
+    num = prompt("Enter a Number");
+    if (num % 2 == 0) {
+        document.write("The number : "+num)
+        document.write(" Is an Even Number");
     } else {
-        Document.write("Odd Number");
+        document.write("The number : "+num)
+        document.write(" Is an Odd Number");
     }
 }
